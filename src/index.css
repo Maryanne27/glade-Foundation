@@ -165,6 +165,7 @@ nav .acct:hover {
   background-position: center;
   width: 100%;
   color: white;
+  margin: 0 auto;
 }
 
 .hero .container {
@@ -294,7 +295,8 @@ nav .acct:hover {
   padding-bottom: 50px;
   padding-top: 40px;
   background: var(--light-gray);
-
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .about .container {
@@ -431,15 +433,18 @@ nav .acct:hover {
   align-items: center;
   padding-top: 30px;
   padding-bottom: 40px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .info .container {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 
 .info img {
-  width: 300px;
+  width: 350px;
   height: 400px;
   object-fit: cover;
   border-radius: 3px;
@@ -457,7 +462,7 @@ nav .acct:hover {
 
 .intro {
   height: 60px;
-  width: 300px;
+  width: 350px;
   padding: 6px;
   box-sizing: border-box;
   position: absolute;
@@ -494,7 +499,7 @@ nav .acct:hover {
 
 .card2:hover .intro {
   height: 400px;
-  width: 300px;
+  width: 350px;
   bottom: 0px;
   background: rgba(254, 149, 114, 0.752);
 }
@@ -525,7 +530,8 @@ label{
   padding: 30px;
   width: 100%;
   background-color: var(--light-gray);
- 
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .request .container {
@@ -533,13 +539,15 @@ label{
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-
+  
 }
 
 .request form {
   margin-left: 40px;
 }
-
+label{
+  font-size: 12px;
+}
 .request .card {}
 
 .form h3 {
@@ -578,12 +586,9 @@ textarea {
   font-size: 14px;
 }
 
-.form {}
-
 .fundraiser {
   text-align: center;
   color: #333;
-
 }
 
 .f-text {
@@ -592,7 +597,9 @@ textarea {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+.f-text p{
+ 
+}
 .fundraiser p,
 h3 {
   padding-bottom: 6px;
@@ -640,7 +647,7 @@ h3 {
   width: 100%;
   position: relative;
   margin: 0 auto;
-
+  overflow: hidden;
 }
 
 .footer .row {
@@ -683,7 +690,7 @@ h3 {
 
 .footer .logo-img {
   position: absolute;
-  left: 100px;
+  left: 108px;
   top: 45px;
 
 }
@@ -887,14 +894,6 @@ form{
   ::placeholder {
     font-size: 10px;
   }
-
-  /* 
-.f-text{
-  position: relative;
-  top: 70%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-} */
   .socials {
     font-size: 20px;
   }
@@ -908,33 +907,23 @@ form{
     margin: 0 auto;
   }
 
-  .info .row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-  }
-
   .info .intro {
-    width: 215px;
+    width: 335px;
   }
   .card2:hover .intro {
-    width: 215px;
+    width: 335px;
     height: 300px;
   }
   .info img {
-    width: 300;
+    
   }
-  .intro {
-    width: 328px;
-  }
+  
   .info .card2{
     height: 300px;
   }
-  .card2:hover .intro {
-    width: 215px;
-  }
+  
 .intro h1{
-  font-size: 14px;
+  font-size: 18px;
 }
 .intro p{
   font-size: 12px;

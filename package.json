@@ -1,5 +1,6 @@
 {
   "name": "glade-foundation",
+  "homepage":"http://gladerelief.netlify.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
