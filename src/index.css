@@ -431,13 +431,11 @@ nav .acct:hover {
   align-items: center;
   padding-top: 30px;
   padding-bottom: 40px;
-  background-color: red;
 }
 
 .info .container {
   width: 90%;
   margin: 0 auto;
-  background-color: white;
 }
 
 .info img {
@@ -459,7 +457,7 @@ nav .acct:hover {
 
 .intro {
   height: 60px;
-  width: 284px;
+  width: 300px;
   padding: 6px;
   box-sizing: border-box;
   position: absolute;
@@ -496,7 +494,7 @@ nav .acct:hover {
 
 .card2:hover .intro {
   height: 400px;
-  width: 284px;
+  width: 300px;
   bottom: 0px;
   background: rgba(254, 149, 114, 0.752);
 }
@@ -527,7 +525,7 @@ label{
   padding: 30px;
   width: 100%;
   background-color: var(--light-gray);
-  background-color: blue;
+ 
 }
 
 .request .container {
@@ -535,7 +533,7 @@ label{
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: red;
+
 }
 
 .request form {
