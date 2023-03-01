@@ -33,7 +33,7 @@ function Hero() {
       <p>Lets make a difference today. Join us in the fight against COVID-19.</p>
       
      <a href='#about' className='btn acct' onClick={makePayment}>
-       <BsHeartFill className='heart'/>  Donate </a>
+       <BsHeartFill className=''/>  Donate </a>
        {/* <button className='acct'>
        <a href="#request" onClick={() => setActiveNav('#request')} className={activeNav === '#about' ? 'active': ''}>
               <small>

@@ -21,17 +21,17 @@ function Nav() {
       </div>
 
       <nav ref={navRef} >
-        <a href="#about">Who we are</a>
+        <a href="#about" onClick={showNavbar}>Who we are</a>
 
-        <a href="#info">How It Works</a>
+        <a href="#info" onClick={showNavbar}>How It Works</a>
 
-        <a href="#">Partners</a>
+        <a href="#"onClick={showNavbar}>Partners</a>
 
-        <a href="#">Contact</a>
+        <a href="#" onClick={showNavbar}>Contact</a>
 
-        <a href="#">Login</a>
+        <a href="#" onClick={showNavbar}>Login</a>
 
-        <a href="#about" className="btn acct">Donate Now</a>
+        <a href="#about" className="btn acct" onClick={showNavbar}>Donate Now</a>
 
         <FaTimes onClick={showNavbar} className="nav-btn nav-close-btn" />
       </nav>
